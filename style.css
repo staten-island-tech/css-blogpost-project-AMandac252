@@ -1,8 +1,17 @@
-body{
+body {
+    font-family: 'Crimson Text', serif;
     background-color: antiquewhite;
     color: rgb(102, 52, 81);
     font-size: 25px;
 }
-.main-header{
+
+.main-header {
     color: rgb(181, 46, 95);
+    text-align: center;
+    background-color: white;
+    padding: 10px 10px;
+}
+
+.backgound{
+    background-color: white; 
 }
