@@ -1,17 +1,35 @@
 body {
     font-family: 'Crimson Text', serif;
-    background-color: antiquewhite;
     color: rgb(102, 52, 81);
-    font-size: 25px;
+    height: 200px;
+    width: 455px;
+    background-color: antiquewhite;
+    margin: 20px auto;
+    text-align: center;
+    
 }
 
 .main-header {
     color: rgb(181, 46, 95);
-    text-align: center;
     background-color: white;
-    padding: 10px 10px;
+    padding: 30px 30px;
+    margin: 0px auto;
 }
 
-.backgound{
-    background-color: white; 
+.background {
+    padding: 30px 30px;
+}
+
+.flowers {
+    height: 200px;
+    width: 400px;
+    background-color: darksalmon;
+}
+
+.Blurb{
+    height: 20px;
+    width: 350px;
+    background-color: darksalmon;
+    text-align: center;
+    margin: 0px auto;
 }
