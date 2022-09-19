@@ -1,21 +1,21 @@
 body {
     font-family: 'Crimson Text', serif;
-    color: rgb(80, 34, 61);
+    color: #D2A7A2;
     height: 400px;
     width: 755px;
-    background-color: antiquewhite;
+    background-color: #DFEBF1;
     margin: 40px auto;
     text-align: center;
 
 }
 
 .main-header {
-    color: rgb(198, 36, 95);
-    background-color: white;
+    color: #ce8f88;
+    background-color: #eef3f3;
     padding: 30px 30px;
     margin: 0px auto;
     border-radius: 30px;
-    box-shadow: 10px 10px rgb(198, 36, 95);
+    box-shadow: 10px 10px #fca095;
 }
 
 /* webpage color code */
@@ -24,23 +24,27 @@ body {
 }
 
 .baked {
-    height: 400px;
-    background-color: rgb(255, 174, 166);
+    height: 600px;
+    background-color: #eef3f3;
     border-radius: 60px;
     padding: 10px;
-    box-shadow: 10px 10px rgb(232, 118, 143);
+    box-shadow: 10px 10px #fca095;
 }
 
 .blurb {
     height: 40px;
 
     padding: 10px;
-    background-color: rgb(255, 174, 166);
+    background-color: #eef3f3;
     border-radius: 30px;
-    box-shadow: 5px 5px rgb(232, 118, 143);
+    box-shadow: 5px 5px #fca095;
     /* Font stuff */
     font-style: italic;
     font-size: large;
     font-weight: bold;
-
+    
+}
+#donuts{
+    transform: scale(0.3);
+    align-items: top;
 }
