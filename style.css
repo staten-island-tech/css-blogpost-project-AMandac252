@@ -7,6 +7,7 @@ body {
     background-color: #DFEBF1;
     margin: 40px auto;
     text-align: center;
+    padding: 30px, 30px;
 
 }
 
@@ -38,30 +39,14 @@ body {
     /* Font stuff */
     font-style: italic;
     font-size: large;
-    font-weight: bold;
-}
+    font-weight: bold; */
+ }
+ *
 
-
-
-#donuts {
-    height: 35vh;
+#images {
     position: absolute;
-    top: 250px;
-    left: 1340px;
-    
+    width: 50vh;
+    border-radius: 30px;
+    padding: 0px auto;
 
-}
-
-#milkshake {
-    height: 35vh;
-    position: absolute;
-    top: 1030px;
-    left: 1325px;
-}
-
-#swissroll {
-    height: 35vh;
-    position: absolute;
-    top: 1800px;
-    left: 1340;
 }
