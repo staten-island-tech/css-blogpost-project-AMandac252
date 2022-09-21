@@ -1,14 +1,16 @@
 
 body {
     font-family: 'Crimson Text', serif;
-    color: #D2A7A2;
+    color: #ce8f88;
     height: 400px;
     width: 755px;
-    background-color: #DFEBF1;
     margin: 40px auto;
     text-align: center;
     padding: 30px, 30px;
-
+/*     background items */
+    background-image:url(Media/bluesquares.jfif);
+    background-size: cover;
+    filter: brightness(100%);
 }
 
 .main-header {
@@ -18,19 +20,47 @@ body {
     margin: 0px auto;
     border-radius: 30px;
     box-shadow: 10px 10px #e4a2b6;
+    /* font stuff  */
+    font-style: italic;
 }
 
-
-.baked {
-    height: 650px;
-    background-color: #eef3f3;
+h2{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.postL {
+    height: 350px;
     border-radius: 60px;
     padding: 10px;
     box-shadow: 10px 10px #e4a2b6;
+    font-style: italic;
 }
 
-.blurb {
-    height: 40px;
+.postM {
+    height: 350px;
+    border-radius: 60px;
+    padding: 10px;
+    box-shadow: 10px 10px #e4a2b6;
+    font-style: italic;
+}
+
+.postR {
+    height: 350px;
+    border-radius: 60px;
+    padding: 10px;
+    box-shadow: 10px 10px #e4a2b6;
+    font-style: italic;
+}
+
+#images {
+    border-radius: 30px;
+    padding: 10px auto;
+    margin: auto;
+    scale: 90%;
+}
+
+.caption {
+    height: 55px;
 
     padding: 10px;
     background-color: #eef3f3;
@@ -38,15 +68,13 @@ body {
     box-shadow: 5px 5px #e4a2b6;
     /* Font stuff */
     font-style: italic;
-    font-size: large;
-    font-weight: bold; */
+    font-size: x-large;
+    font-weight: bold; 
  }
- *
-
-#images {
-    position: absolute;
-    width: 50vh;
-    border-radius: 30px;
-    padding: 0px auto;
-
-}
+ 
+ a{
+    text-decoration: none;
+ }
+a:link{
+    color: #551A8B;
+ }
